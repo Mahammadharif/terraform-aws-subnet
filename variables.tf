@@ -1,20 +1,20 @@
 variable "vpc_id" {
-    description = "[Required ] specify vpc id"
-    type = string
-    
+  description = "[Required ] specify vpc id"
+  type        = string
+
 }
 
 variable "subnet_cidr" {
-    description = "[Required ] specify subnet cidr "
-    type = string
-    
+  description = "[Required ] specify subnet cidr "
+  type        = string
+
 }
 
 variable "subnet_name" {
-    description = "[Optional ] specify subnet name in the form of tags  "
-    type = string
-    default = ""
-    
+  description = "[Optional ] specify subnet name in the form of tags  "
+  type        = string
+  default     = ""
+
 }
 
 
@@ -28,4 +28,4 @@ variable "subnet_name" {
 
 
 
-    
+
